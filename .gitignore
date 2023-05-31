@@ -1,0 +1,3 @@
+# 設定此項目是node_modules不要進版控
+
+node_modules/
