@@ -121,4 +121,6 @@ const requestListener=(req,res)=>{
 const server =http.createServer(requestListener);
 
 //要上 Heyroku 要加環境變數 process.env.PORT ||
-server.listen(process.env.PORT || 3005);
+//server.listen(process.env.PORT || 3005);
+const port = process.env.PORT || 3000;
+
